@@ -84,7 +84,7 @@ if __name__ == "__main__":
     Temp = 1.
     beta = 1./Temp # /kBT, kB = 1, T = element from Temp_range massive.
     state = 2*np.random.randint(2, size=(N,N))-1 #initial state
-    make_animation = True # Leave False if you dont need an animation
+    make_animation = False # Leave False if you dont need an animation
 
     if rank == 0:
         # temperature range
